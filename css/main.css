@@ -14,7 +14,18 @@
     transform: translateY(-50%);
     z-index: 999;
 }
-.top_mn ul li::after{content:'';display:inline-block; width: 70px; height:2px; background-color: #252525; position: absolute; top:50%; transform: translateY(-50%); margin-left: 10px; left:100%;}
+.top_mn ul li::after{
+    content:'';
+    display:inline-block;
+    width: 70px;
+    height:2px;
+    background-color: #252525; 
+    position: absolute; 
+    top:50%; 
+    transform: translateY(-50%); 
+    margin-left: 10px; 
+    left:100%;
+}
 .top_mn ul li{margin-bottom: 26px; position: relative; text-align: right;}
 
 .top_mn ul li:hover a{color:#d6000f;}
@@ -28,7 +39,8 @@
 .main_list li a{position: relative;}
 .main_list p{position: absolute; padding-top:18px; padding-left:9px;}
 .mu_list h2{line-height: 65px;}
-.mu_lust_tt{right: 0;
+.mu_lust_tt{
+    right: 0;
     display: inline-block;
     position: absolute;
     top: 275px;
@@ -44,9 +56,22 @@
 .content .main_list li p{position: absolute; top:-18px;}
 .inner .main_list li{display: inline;justify-content: space-between;}
 /*INFORMATION*/
+.information{padding-top: 271px;}
+.data{text-align: right;}
 .data p{padding-bottom: 45px;}
-
-
+.data_tt{text-align: right;}
+.data_tt p{position: relative;}
+.data_tt p:hover:after{
+    content:'';
+    display:inline-block;
+    width: 500px;
+    height:5px;
+    background-color: #d6000f; 
+    position: absolute; 
+    top:50%; 
+    transform: translateY(-50%); 
+    margin-left:-42%; 
+}
 
 /*MAIN_WRAPPER*/
 .news p{padding-bottom: 45px;}
@@ -56,7 +81,7 @@
 .new_list li a{display:block;position:relative;background: #000;}
 .new_list li a img{opacity:0}
 .new_list li:After{content:'';display:block;}
-.new_list li .bg-test{    position: absolute;
+.new_list li .bg-test{position: absolute;
     text-align: left;
     bottom: 0;
     width: 100%;
@@ -69,22 +94,13 @@
 .new_list li .bg-test.img03:hover{background: url(../image/new_03.jpg);}
 .new_list li .bg-test.img04:hover{background: url(../image/new_04.jpg);}
 
-.new_list li .bg-test .absolute{    position: absolute;
+.new_list li .bg-test .new_tt{
+    position: absolute;
     bottom: 0;
     padding: 20px 10px;
     width: 100%;
-    box-sizing: border-box;}
+    box-sizing: border-box;
+}
 .new_list li p h3 h4 span{position: absolute; left:0; top:50px;}
 
 .main_wrapper .container  button{margin: 45px auto;display: block;}
-/*FOOTER*/
-.logo{display:inline-block; padding-top: 118px;}
-.logo a{
-    background: url(../image/logo.png) no-repeat;
-    width:239px;
-    height:33px;
-    text-indent: -9999em;
-    display:block;
-}
-.ft_mu ul li a{}
-.social_link{display:flex; justify-content:flex-end;}

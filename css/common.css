@@ -70,12 +70,25 @@ footer{margin:0 auto;}
     font-weight: 300;
     color:#252525;
 }
-.new_list p{
-    font-size:19px;
-    font-family:'Jua', sans-serif;
-    font-weight: 400;
+.data_tt p a{
+    line-height: 112px;
+    font-size:30px;
+    font-family:'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    color:#252525;
+}
+.data_tt p a:hover{
+    font-size:30px;
+    font-family:'Noto Sans KR', sans-serif;
+    font-weight: 700;
     color:#d6000f;
 }
+.new_tt{
+    font-size:35px;
+    font-family:'Jua', sans-serif;
+    font-weight: 400;
+    color:#d6000f;}
+    
 .new_list h3{
     font-size:19px;
     font-family:'Noto Sans KR', sans-serif;
@@ -144,3 +157,13 @@ nav .main_menu{
 
 /*FOOTER*/
 footer{background-color:#f1f1f1;}
+.logo{display:inline-block;}
+.logo a{
+    background: url(../image/logo.png) no-repeat;
+    width:239px;
+    height:33px;
+    text-indent: -9999em;
+    display:block;
+    top:50%; left: 0;
+}
+.social_link{display:flex; justify-content:flex-end;}
